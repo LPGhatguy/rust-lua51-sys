@@ -1,0 +1,16 @@
+[package]
+name = "lua51-sys"
+version = "0.1.0"
+authors = ["Lucien Greathouse <me@lpghatguy.com>"]
+description = "Bindings for Lua 5.1.5"
+build = "build.rs"
+links = "lua"
+license = "MIT"
+repository = "https://github.com/LPGhatguy/rust-lua51-sys"
+
+[build-dependencies]
+bindgen = "0.39.0"
+cc = "1.0"
+
+[dependencies]
+
