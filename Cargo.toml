@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Lucien Greathouse <me@lpghatguy.com>"]
 description = "Bindings for Lua 5.1.5"
 build = "build.rs"
-links = "lua"
+links = "lua51"
 license = "MIT"
 repository = "https://github.com/LPGhatguy/rust-lua51-sys"
 
@@ -12,5 +12,6 @@ repository = "https://github.com/LPGhatguy/rust-lua51-sys"
 bindgen = "0.39.0"
 cc = "1.0"
 
-[dependencies]
-
+[features]
+dynamic = []
+static = []
